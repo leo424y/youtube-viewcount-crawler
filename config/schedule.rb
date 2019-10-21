@@ -7,7 +7,7 @@
 #
 # set :output, "/path/to/my/cron_log.log"
 #
-every 10.minute do
+every 5.minute do
   command "cd /Users/y/gh/yt && mocha"
 end
 #
